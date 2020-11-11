@@ -1,0 +1,191 @@
+* {
+    font-family: helvetica;
+    line-height: 120%;
+    letter-spacing: 1px;
+
+}
+
+.titlebanner h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(226, 219, 157, 0.952);
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid black;
+    text-shadow: 2px 2px #3f26099a;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 2vw;
+    font-size: 17px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+    padding: 50px;
+    width: 100%;
+    text-shadow: 2px 2px #3f26099a;
+    
+}
+
+nav {
+    background-color: rgb(94, 66, 66);
+    padding: 2px; 
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid black;
+    border-top: 0px;
+    opacity: 0.9;
+    
+}
+
+li:hover{
+    background-color:rgba(80, 0, 0, 0.199);
+    transition: 200ms ease-in 200ms;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    
+}
+
+body {
+    background-color: rgba(233, 212, 175, 0.788);
+    background-color: none;
+    margin: 0px 0px 0px 0px;
+    opacity: 0.92;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.brushimg, .framesimg, .paintimg { 
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 40px 30px 40px 30px;
+    
+}
+
+.imgdiv  {
+    justify-content: center;
+    display: flex;
+
+}
+
+h3, p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+h3 {
+    color: rgba(8, 8, 8, 0.877);
+    margin-bottom: 45px;
+    
+}
+
+p {
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.paintprices, .frameprices, .brushprices {
+    font-weight: bold;
+    color: rgba(0, 26, 255, 0.671);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.brushes {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgb(47, 197, 139);
+    margin-top: 100px;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-shadow: 1px 1px #6e6e6e9a;
+    
+}
+
+.frames {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: lightcoral;
+    margin-top: 130px;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-shadow: 1px 1px #6e6e6e9a;
+    
+}
+
+.paint {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: skyblue;
+    margin-top: 130px;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-shadow: 1px 1px #6e6e6e9a;
+
+}
+
+footer {
+    background-color: hsl(348, 60%, 30%); 
+    color: white;
+    text-align: center;
+    height: 100%;
+    margin-top: 100px; 
+    padding: 23px;
+    border-top: 1px solid black;
+    opacity: 0.99;
+}
+
+.footword1, .footword2, .footword3, .footword4 {
+    padding: 10px;
+    border: none;
+    font-size: 9.5px;
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.footword4 {
+    font-size: 11px; 
+}
+
